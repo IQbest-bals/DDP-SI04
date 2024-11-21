@@ -1,3 +1,4 @@
+print('\n---- celcius ke farenheit ----')
 def celcius_ke_farenheit(celcius):
     print(celcius * 9/5 + 32) 
 celcius_ke_farenheit(0)
@@ -16,7 +17,7 @@ def skor(nilai):
     print('gagal')
 skor(60)
 
-
+print('\n---- ganjil genap ----')
 def bil_ganjil(ganjil):
   for i in range(1,ganjil+1, 2):
     print(i, end=' ')
